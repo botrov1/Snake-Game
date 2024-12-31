@@ -1,15 +1,24 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/mLqiHWLE)
-# COE2SH4 - Course Project Template
-Course Project
+🐍 Snake Game
 
-You must watch the briefing video and read through the manual to engage in the development activities.
+Welcome to the Snake Game project! This is a classic arcade-style game where the player controls a snake to collect food, grow longer, and avoid collisions with walls or itself.
 
+🚀 Features
+Smooth Controls: Move the snake using w, a, s, d keys.
 
-Section: [L08]
+Dynamic Gameplay: The snake moves continuously in the chosen direction.
 
-Team Information
-Member 1 MacID: [najamh]
-Member 1 StudentID: [400433239]
+Score Tracking: Keep track of your high score.
 
-Member 2 MacID: [Insert your macID here]
-Member 2 StudentID: [Insert your numerical student ID here]
+Simple Interface: Minimalist design for distraction-free gameplay.
+
+🛠️ How to Run
+
+Clone this repository:
+
+git clone https://github.com/botrov1/snake-game.git
+
+🎮 How to Play
+
+Use w (Up), s (Down), a (Left), and d (Right) to control the snake.
+
+Eat the food to grow longer.
