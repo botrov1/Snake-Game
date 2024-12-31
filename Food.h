@@ -11,17 +11,18 @@ class Food {
     private:
         objPos foodPos; //stores position and symbol of the food
         GameMechs* mainGameMechsRef; //pointer to GameMechs for accessing board size
-        
+        objPosArrayList* foodBucket;
+
     public:
         Food(GameMechs* thisGMRef); //constructor: initializes food
         ~Food(); //destructor: cleans up any dynamically allocated memory
         
         //generates new food position
-        void generateFood(objPos blockOff);
-        
+    void generateFood(objPosArrayList* blockOff);        
         //returns the current position of the food
         //const indicates this method won't modify class members
         objPos getFoodPos() const;
+        
 };
 
 #endif
